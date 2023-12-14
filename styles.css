@@ -1,0 +1,411 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 13rem;
+}
+.displayData{
+    justify-content: center;
+    width: 100%;
+}
+.brantLog{
+    font-family: 'Bodoni Moda', serif;
+    display: none;
+    font-size: 17px;
+}
+nav{
+    background-color: #3086ca;
+    border-bottom:1px solid white ;
+}
+.displayData li a{
+    color: aliceblue;
+}
+.AppointmentBtn{
+    width: 15rem;
+    background-color:#444444;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* ***** Home page styles***** */
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.title h2{
+    font-size: clamp(16px, 7vw, 3rem);
+    font-family: 'Jost', sans-serif;
+}
+.bannerImg{
+    background-image: url(https://i.postimg.cc/YC4SVHZG/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.socialMedia{
+    margin: 2rem 0;
+    display: flex;
+    color: white;
+    gap: 2rem;
+    font-size: 1.8rem;
+}
+
+/* **** Service page styles**** */
+.service{
+        background-image: linear-gradient(#3086ca, white);
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        padding: 3rem 2rem;
+        height: auto;
+}
+.cardData:hover{
+    transform: scale(1.1);
+}
+.cardData img{
+    width: 13rem;
+    border-radius: .5rem;
+}
+.cardData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #6997ce;
+    width: 16rem;
+    height: 12rem;
+}
+
+/* *** Practice page styles*** */
+.practice{
+    text-align: center;
+    height: auto;
+}
+.practice label{
+    font-size: 22px;
+    color:  #6997ce;
+}
+.drDetails{
+    color: black;
+}
+.drDetails h4{
+    line-height: 0;
+}
+.drDetails p{
+    padding: 0 2rem;
+    text-align: justify;
+}
+.firstCol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstCol img{
+    width: 30rem;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+/* ***MEET THE DOCTOR page*** */
+.doctorMeat label{
+    font-size: 22px;
+    color:  #6997ce;
+}
+.doctorMeat{
+    text-align: center;
+    height: auto;
+    padding: 2rem 0 3rem 0;
+}
+.doctorDetails{
+    background-image: url(https://i.postimg.cc/kg5YwX86/1851067.jpg);
+    background-position: center;
+    align-items: center;
+    height: auto;
+    margin: 2rem 1rem;
+    border-radius: 2rem;
+}
+.doctorDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    text-align: justify;
+}
+.doctorImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doctorImg img{
+    width: 18rem;
+}
+.brants{
+    display: flex;
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+.brantsIcons{
+    display: flex;
+    justify-content: center;
+}
+.brants img{
+    padding: 0 1rem;
+}
+.brantLogo{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #298bcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brantLogo img{
+    width: 3rem;
+}
+.alineLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding: 2.5rem 0;
+}
+.services {
+    text-align: center;
+    height: auto;
+    padding: 2rem 0 3rem 0;
+    background-image: linear-gradient(lightblue, white);
+}
+.services label{
+    font-size: 22px;
+    color:  #6997ce;
+}
+.logdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logdiv label{
+    font-size: 18px;
+    width: 12rem;
+    height: 2rem;
+}
+
+/* ***reviews page styles*** */
+.reviews{
+    text-align: center;
+    height: auto;
+    padding: 2rem 0 3rem 0;
+}
+.reviews label{
+    font-size: 22px;
+    color:  #6997ce;
+}
+.userReviews img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 1rem;
+}
+.userReviews{
+    display: flex;
+    width: 25rem;
+    height: 7rem;
+    background-color:#6997ce;
+    border-radius: .5rem;
+    margin: 0 1rem;
+}
+.star{
+    display: flex;
+}
+.checked {
+    color: orange;
+}
+.reviewsData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviewsRow{
+    display: flex;
+    justify-content: center;
+}
+.commantPart{
+    width: 15rem;
+    height: 15rem;
+    background-color: #6997ce;
+    border-radius: .2rem;
+}
+.starRate{
+    display: flex;
+}
+.reviewContainer{
+    display: flex;
+    flex-direction: column;
+    padding: .6rem;
+}
+.reviewContainer h6{
+    text-align: justify;
+}
+.profile{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rosybrown;
+    font-size: 25px;
+}
+.userProfile{
+    padding: 1rem .5rem .5rem .5rem;
+    display: flex;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+}
+.setReview{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0;
+}
+.information{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.coverImg{
+    background-image: url(https://i.postimg.cc/7PFSdMQk/imgCover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+/* *** Gallery page styles *** */
+.photoGallery{
+    text-align: center;
+    height: auto;
+    padding: 0rem 0 3rem 0;
+}
+.photoGallery label{
+    font-size: 22px;
+    color:  #6997ce;
+}
+.galleryImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+.address{
+    text-align: center;
+    padding: 2rem 5rem;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+.footerFirst{
+    background-color:  #6997ce;
+}
+.navigation{
+    text-align: center;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.navigation a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.navigation h4{
+    letter-spacing: .3rem;
+}
+.footerIcons{
+    display: flex;
+    gap: 3rem;
+    margin: 2rem;
+}
+.footerIcons i{
+    font-size: 1.2rem;
+}
+.copyRight{
+    display: flex;
+}
+.footerDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #298bcc;
+}
+.serviseBrant{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1000px) {
+    .footerDiv{
+        display: none;
+    }
+    .bannerImg{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .brantLog{
+        display: block;
+    }
+    .bannerImg{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:700px) {
+    .bannerImg{
+        height: 50vh;
+    }
+}
+@media screen and (max-width:406px) {
+    .firstCol img{
+        width: 20rem;
+    }
+}
